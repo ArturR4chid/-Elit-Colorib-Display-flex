@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 23%;
+    height: 100vh;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+.Photo{
+    background-color: black;
+}
+
+.branca {
+    color: white;
+    padding-left: 15%;
+    padding-top: 13%;
+}
+
+.espaco {
+    width: 100%;
+    
+}
+
+body {
+    display: flex;
+    background-image: url(https://preview.colorlib.com/theme/elit/images/img_9.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,0.3); 
+    font-family: Arial, sans-serif; 
+    }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    height: 100vh;
+    font-size: larger;
+}
+
+.box {
+    color: white;
+    width: 100%;
+    text-align:center;
+    
+}
+.butaoPadding{
+    padding-top: 60px;
+}
+.butao{
+    height: 8vh;
+    width: 15%;
+    border-radius: 30px;
+}
+.Quicksand{
+    font-family: "Quicksand", sans-serif;;
+}
+
+.oswald{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section {
+    width: 100%;
+}
+.ajuste01 {
+    display: flex;
+    flex-direction: column;
+    
+}
+.img-site {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.img1 { width: 100%;
+height: 300px;
+object-fit: cover;
+justify-content: space-between;} 
+
+.afonsinha {
+    width: 33%;
+    height: 300px;
+    
+}
+.ajustebola{
+    border-radius : 50%;
+    height: 166px;
+    width: 166px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    height: 100vh;
+    font-size: larger;
+    background-color: black;
+}
+.ajuste02{
+padding-left: 350px;
+background-color: #1a1a1a;
+color: white;
+}
+
+.img2{
+    height: 363.5px;
+    width: 363.5px;
+    margin-top: 5%;
+}
+.ajuste_margin{
+    padding-top: 10% ;
+    background-color:#1a1a1a;;
+    font-size: xx-large;
+}
+.ajustetexto{
+    text-align: justify;
+    padding-top: 2%;
+}
+.ajusteTitulo{
+     padding-top: 6%;
+}
+
+.poste {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: -40px;
+    width: 40%;
+}
+
+
+.poste ul {
+    list-style: none;
+}
+
+.poste ul li {
+    margin-top: 10px;
+}
+
+.lista2{
+    margin-left: -80px;
+}
+.lista3{
+    margin-left: -80px;
+    
+}
+.img3{
+    height: 200px;
+    width: 250px;
+    margin-top: 5%;
+    margin: 0px 15px;
+    padding-top: 30px;
+    margin-left: -10px;
+}  
+.ajuste_Blog{
+    padding-top: 10% ;
+}
+.ajuste03{
+    padding-left: 350px;
+    background-color: black;
+    color: white;
+}
+
+.cor{
+    background-color: black;
+}
+.listaBlog{
+    margin-left: 100px;
+    padding-top: 35px;
+    width: max-content;
+}
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color:#1a1a1a;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 100%;
+    max-width: 500px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #333;
+    border: none;
+    color: #fff;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    margin-bottom: 10px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+button {
+    width: 27%;
+    padding: 10px;
+    background-color: #e91e63;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px ;
+}
+
+button:hover {
+    background-color: #d81b60;
+}
